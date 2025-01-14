@@ -127,18 +127,19 @@
     }
 
     .cards__container:nth-child(1) {
-        background-size: 250px 230.33px;
+        background-size: 520px 630.33px;
     }
 
     .cards__container:nth-child(2) {
         margin-top: 10px;
         margin-bottom: 9px;
-        background-size: 250px 250px;
+        background-size: 520px 500px;
     }
 
     .cards__container:nth-child(3) {
         margin-top: 1px;
-        background-size: 250px 230.33px;
+        background-size: 520px 460.33px;
+        background-position: top -80px ;
 
     }
 
