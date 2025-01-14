@@ -101,14 +101,15 @@
 }
 
 .card__title {
-    color:#000;
+    color: #fff;
     margin-top: 90px;
     font-size: 34px;
 }
 
 .card__link {
-    color:gray;
+    color:blue;
     font-size: 16px;
+    opacity: 0.7;
 }
 
 
