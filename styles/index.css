@@ -118,6 +118,17 @@
     .page__cards {
         margin-top: 35px;
         gap:0px;
+        margin-left: 150px;
+    }
+
+    .cards__container:nth-child(2) {
+        margin-left: -150px;
+        margin-right: 150px;
+    }
+
+    .cards__container:nth-child(3) {
+        margin-left: -300px;
+        margin-right: 300px;
     }
 }
 
@@ -125,6 +136,7 @@
     .page__cards {
        display: flex;
        flex-direction: column;
+       margin-left: 0px;
     }
 
     .cards__container:nth-child(1) {
@@ -135,13 +147,16 @@
         margin-top: 10px;
         margin-bottom: 9px;
         background-size: 520px 500px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .cards__container:nth-child(3) {
         margin-top: 1px;
         background-size: 520px 460.33px;
         background-position: top -80px ;
-
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .the__card {
