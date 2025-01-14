@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,ol li {
+    list-style: none;
+}
+
+.container {
+    width:100%;
+    max-width: 1152px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+body {
+    background: linear-gradient(45deg, rgba( 2, 123,131,0.8), rgba(53, 123,131,0.7),rgba(53, 23,131,1) );
+    background-repeat: no-repeat;
+}

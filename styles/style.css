@@ -1,3 +1,5 @@
+/* Styles */
+
 @import "./about.css";
 
 @import "./contact.css";
@@ -9,3 +11,10 @@
 @import "./projects.css";
 
 @import "./fonts.css";
+
+
+/* Layouts */
+
+@import "../layouts/footer.css";
+
+@import "../layouts/header.css";
