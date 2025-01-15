@@ -141,11 +141,12 @@
 
 
 @media screen and (max-width:1000px) {
-    .page__cards {
+    .all__cards__container {
         margin-top: 35px;
         gap:0px;
         margin-left: 150px;
     }
+
 
     .cards__container:nth-child(2) {
         margin-left: -150px;
@@ -159,7 +160,7 @@
 }
 
 @media screen and (max-width:635px) {
-    .page__cards {
+    .all__cards__container {
        display: flex;
        flex-direction: column;
        margin-left: 0px;
